@@ -125,3 +125,48 @@ form input{
     color: #609;
     padding: 0 3px;
 }
+.footer {
+    margin-top: 200px;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+}
+.location {
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    background-color: rgba(0,0,0,.08); 
+    width: auto; 
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgba(0,0,0,.12);
+}
+.other {
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    background-color: rgba(0,0,0,.08); 
+    width: auto;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgba(0,0,0,.12);
+    padding-left: 27px;
+    padding-right: 20px;
+    
+}
+.other, a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .other1 {
+    float: right;
+  }
+  
+  span a {
+      padding-left: 20px;
+  }
+  
+  .other2, span a:first-child {
+      padding-left: 0px;
+  }
