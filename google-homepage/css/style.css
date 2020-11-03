@@ -170,3 +170,8 @@ form input{
   .other2, span a:first-child {
       padding-left: 0px;
   }
+  input[type="search" i] {
+    appearance: searchfield;
+    box-sizing: border-box;
+    padding: 1px 40px 2px;
+}
